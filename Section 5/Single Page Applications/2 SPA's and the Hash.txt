@@ -1,0 +1,5 @@
+SPA's and the Hash:
+=====================
+
+window.location.hash
+

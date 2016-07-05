@@ -1,0 +1,9 @@
+Scope service:
+==============
+
+	* $scope: binds the model to the view
+
+		Object from scope service 
+		involves dependency injection.
+
+	All angular service starts with a dollar sign($)

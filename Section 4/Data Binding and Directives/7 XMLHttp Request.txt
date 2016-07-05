@@ -1,0 +1,10 @@
+XMLHttpRequest:
+==============
+
+	XMLHttpRequest is native to the browsers.
+
+	Invented by the Microsoft.
+
+	Can make request via its code.
+
+	

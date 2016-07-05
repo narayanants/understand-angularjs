@@ -1,0 +1,21 @@
+Services and dependency injection:
+==================================
+
+ * Dependency injection:
+
+ 	Giving a function an object 
+
+ 	Rather than creating a object inside a function, you pass it to the function.
+
+ 	var Person = function(firstname,lastname){
+ 		this.firstname = firstname;
+ 		this.lastname = lastname;
+ 	}
+
+ 	function logPerson(person){
+ 		console.log(person);
+ 	}
+
+ 	var john = new Person('John','Doe');
+ 	logPerson(john);
+

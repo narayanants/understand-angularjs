@@ -1,0 +1,9 @@
+Common Directives: part 2
+=================
+
+	show the interpolation syntax for a second and the JS syntax take over it
+
+	to avoid it AngularJS uses ng-clock.
+
+	ng-clock hides the element in the DOM until AngularJS has worked on it.
+	

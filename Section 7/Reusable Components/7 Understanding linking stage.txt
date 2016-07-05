@@ -1,0 +1,7 @@
+Understanding linking stage:
+============================
+
+Shorthand ofr linking stage is using link()
+
+This gives us a link() function which is similar to a running post-link 3 times.
+

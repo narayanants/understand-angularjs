@@ -1,0 +1,27 @@
+Services vs Factories vs Providers:
+===================================
+
+app.factory = ('a',fn);
+app.service = ('b',fn);
+app.provider = ('c',fn);
+
+
+Difference:
+==========
+
+	a's stored value comes from running fn()
+
+	b's stored value comes from 'new'ing fn()
+
+	c's stored value comes from first getting an instance by 'new'ing fn and then running a $get of the instance.
+
+
+	Result:
+	=======
+
+	cache.a = fn();
+	cache.b = new fn();
+	cache.c = (new fn()).$get();
+
+
+	This is why services using 'this' and provider's use 'this'.$get()

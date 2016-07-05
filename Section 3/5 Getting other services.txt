@@ -1,0 +1,14 @@
+Getting other services:
+======================
+
+	$log service is similar to console.log()
+
+	$log.log()
+	$log.warn()
+	$log.info()
+	$log.debug()
+	$log.error()
+
+
+	$filter service:
+	================

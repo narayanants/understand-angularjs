@@ -1,0 +1,11 @@
+creating a directive:
+=====================
+
+
+by default, EA is enabled to elements and attributes.
+
+combination of EAMC for elements,attributes,Comments and Class
+
+Mostly attributes and elements are used
+
+replace:true will replace the content with content specified in template.

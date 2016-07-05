@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="app">
+    <head>
+        <title>Learn and Understand AngularJS</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="UTF-8">
+
+        <!-- load bootstrap and fontawesome via CDN -->
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        <style>
+            html, body, input, select, textarea
+            {
+                font-size: 1.05em;
+            }
+        </style>
+        
+        <!-- load angular via CDN -->
+        <script src="angular.min.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <header>
+			<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="/">AngularJS</a>
+				</div>
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+				</ul>
+			</div>
+			</nav>
+		</header>
+
+        <div class="container">
+
+            <div ng-controller="mainController as main">
+                <div>
+                    <label>What is your twitter handle?</label>
+                    <input type="text" name="" ng-model="main.handle"/>
+                </div>
+                <div class="alert" ng-class="{'alert-warning':main.handle.length < main.characters}" ng-show="main.handle.length < main.characters">
+                    Must be 5 characters!
+                </div>
+                <div class="alert" ng-class="{'alert-danger':main.handle.length > main.characters}" ng-show="main.handle.length > main.characters">
+                    Greater than 5 characters!
+                </div>
+                <hr>
+
+                <h1>twitter.com/{{main.lowercasehandle()}}</h1>
+                <br>
+
+                <h2>Rules</h2>
+                <ul>
+                    <li ng-repeat="rule in main.rules">{{rule.rulename}}</li>
+                </ul>
+                <br>
+                <br>
+
+                <input type="button" name="" value="Click Me" ng-click="main.clickMe()">
+                <br>
+
+                <div ng-cloak>
+                    {{main.name}}
+                </div>
+            </div>
+
+            
+            
+		</div>
+
+    </body>
+</html>

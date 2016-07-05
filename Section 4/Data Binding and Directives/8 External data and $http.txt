@@ -1,0 +1,5 @@
+External data and $http:
+=========================
+
+$http.get()
+$http.post()

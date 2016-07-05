@@ -1,0 +1,20 @@
+Model, View and whatever...
+==========================
+
+	Connect HTML and data
+
+	MVC:
+	====
+
+		Model : in JS let's say, a  variable
+		View : what the user sees, the HTML
+		binds the model and the view
+
+		Model and View are bound together
+		Any changes made to the view affects the model and vice versa.
+
+		Binding is done by controllers, view models and whatever.
+
+		AngularJS is MV*
+
+		

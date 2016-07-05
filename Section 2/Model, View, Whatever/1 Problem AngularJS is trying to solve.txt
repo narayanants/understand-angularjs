@@ -1,0 +1,20 @@
+Problem AngularJS is trying to solve:
+====================================
+
+	 If we have 2 UI buttons it is ok to use jQuery.
+
+	 But what if we have 20?!?!
+
+	 Representation of the HTML that sits inside browser's memory.
+
+	 Way for us to Manipulate and read code.
+
+	 More code if we use jQuery.
+
+	 Just update one side and other side updated automatically.
+
+	 Update JS and HTML auto updates.
+
+	 Complexity of managing both the DOM and HTML and logic and variables and data manually.
+
+	 

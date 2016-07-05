@@ -1,0 +1,6 @@
+Modules, Apps and controllers:
+===============================
+
+
+	controller binds the model and the view using the $scope.
+	

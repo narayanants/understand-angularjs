@@ -1,0 +1,4 @@
+Multiple Controllers and multiple views:
+=======================================
+
+$scope is unique to the controller it is defined in.

@@ -1,0 +1,32 @@
+Singletons:
+===========
+
+	Singletons:
+	===========
+
+		The one and only copy of an object.
+
+
+
+		Person object 
+
+		Instantiating or creating a copy of person object
+
+		kumar
+		sumar
+		marama
+
+		But a singleton doesn't give you copies
+		it gives only one.
+
+		AngularJS services are implemented as singletons.
+
+		$log service is a singleton
+
+		$scope is an exception in angularjs
+
+		$scope in angularjs is a childscope
+
+		Passing it to a new controller will let it create a new $scope
+
+		Creating your own service will also be a singleton.

@@ -1,0 +1,6 @@
+Understanding Transclusion:
+============================
+
+Including one document inside another document.
+
+Place a copy of one document at a particular point inside another document.

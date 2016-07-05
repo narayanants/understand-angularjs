@@ -1,0 +1,27 @@
+Scope and Interpolation:
+========================
+
+	Interpolation:
+	============
+
+		creating a string by combining string and placeholders.
+
+		'My name is' + name is interpolated, and results is 'My name is Tony'.
+
+How it does work inside angularjs:
+==================================
+
+	whatever that is done inside the $scope is avaialbe inside the view
+
+
+	var app = angular.module('app',[]);
+
+	app.controller('mainController',['$scope','$timeout',function($scope,$timeout){
+
+		$scope.name = 'Narayanan';
+
+		$timeout(function(){
+			$scope.name = 'TOmy';
+		},3000);
+
+	});

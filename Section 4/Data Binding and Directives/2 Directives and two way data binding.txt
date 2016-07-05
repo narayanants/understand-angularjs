@@ -1,0 +1,19 @@
+Directives and two way data binding:
+===================================
+
+
+	an instruction to AngularJS to manipulate a piece of the DOM.
+
+	It could be add a class, hide this create this.
+
+	ng-model:
+	=========
+
+		bind a particular element to the scope of the variable
+
+		this directive says that this element to be bound to a specific variable in the scope.
+
+
+		Attach the view to the model.
+
+		

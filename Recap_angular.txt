@@ -1,0 +1,56 @@
+RECAP:
+=======
+
+	Services:
+	==========
+
+		$log
+		$filter
+		$resource
+		$timeout
+		$scope
+		
+
+Interpolation:
+============== 
+
+	creating a string by combining string and placeholders.
+
+	'My name is' + name is interpolated, and results is 'My name is Tony'.
+
+Directive:
+==========
+
+	A Directive is a piece of angularjs that is used to manipulate a piece of DOM.
+
+	This could be addClass hide this create this etc.
+
+	@ - isolated scope for string or One way binding
+	& - isolated scope for expression or Two way binding
+
+
+Custom Directives:
+====================
+
+Normalize: To make a consistent to a standard.
+
+Compile stage is run once before we can do manipulation
+
+Then pre-linking is done down the chain.
+
+Post-linking is done up the chain.
+
+NEVER USE PRE-LINKING.
+
+Use shorthand for linking function.
+
+Transclusion:
+=============
+
+Including one document inside another document.
+
+Place a copy of one document at a particular point inside another document.
+
+
+
+

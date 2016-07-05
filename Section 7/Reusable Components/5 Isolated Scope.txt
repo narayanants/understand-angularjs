@@ -1,0 +1,32 @@
+Isolated Scope:
+===============
+
+Isolate the controller from the scope of the directive.
+
+scope:{} gives its own directive scope.
+
+@ => to get only text/string value of attributes
+
+=   => tells us this is a 2 way binding that we can pass an object via this property of the scope.
+
+assign the whole object to that attribute to get the individual obj properties.
+
+Caution with =:
+================
+
+	we can get in trouble if we do two way data binding.
+
+	Find yourself in unusual circumstances.
+
+
+Functions on directives:
+========================
+
+& means function 
+
+function takes an object as an argument.
+
+pass an mapping object inside the function as param and map it to the object.
+
+
+

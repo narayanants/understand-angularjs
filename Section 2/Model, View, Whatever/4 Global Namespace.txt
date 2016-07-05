@@ -1,0 +1,14 @@
+Global Namespace:
+=================
+
+	Global Namespace 
+
+
+	var steveApp = {};
+	steveApp.person = "Steve";
+	steveApp.logPerson = function(){
+		console.log(steveApp.person);
+	}
+
+	steveApp.person = "Tony";
+	steveApp.logPerson();

@@ -1,0 +1,5 @@
+Routing Templates and controllers:
+=================================
+
+angular-route for routing the hashes.
+

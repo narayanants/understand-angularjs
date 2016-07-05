@@ -1,0 +1,11 @@
+Variable names and normalization:
+==================================
+
+	Normalize:
+	==========
+
+	To make a consistent to a standard.
+
+	Specifically we deal with text normalization.
+
+	or making different strings of text consistent to a standard.

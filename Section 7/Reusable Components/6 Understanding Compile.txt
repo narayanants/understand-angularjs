@@ -1,0 +1,35 @@
+Understanding Compile:
+======================
+
+Compile and Link:
+-----------------
+
+	When building the code , the compiler converts code to a lower level language that the computer understands.
+
+	Then the linker generates a file the computer will actually interact with.
+
+	Linker combines all those files and builds a single file that is executable that computer interacts with.
+
+
+
+AngularJS compile and link:
+===========================
+
+	Compiling runs only once.
+
+	Linking runs more than once.
+
+	Each loop has its own scope.
+
+
+	So when we have nested custom directives, angular js compiles once and run pre-link.
+
+	Looks any nested custom directives and run pre-link for them.
+
+	After reaching the bottom of the chain, it runs post-link back up the chain.
+
+	Post-link is safer than pre-link.
+
+	AVOID USING PRE LINK.
+
+	Mostly we don't use compile stage.. very rare.

@@ -1,0 +1,41 @@
+Creating a service:
+===================
+
+
+	For custom service, angularjs doesn't run digest loop
+
+
+	A service holds a reference to any object.
+
+	A factory is a function which returns any object
+
+	A provider is a function which returns any function
+
+	Service is a constructor function that will be called  with new.
+
+	factory is a function that returns an object you can run some code before.
+
+	
+
+
+	app.service('myService', function() {
+
+  // service is just a constructor function
+  // that will be called with 'new'
+
+  this.sayHello = function(name) {
+     return "Hi " + name + "!";
+  };
+});
+
+	app.factory('myFactory', function() {
+
+	  // factory returns an object
+	  // you can run some code before
+
+	  return {
+	    sayHello : function(name) {
+	      return "Hi " + name + "!";
+	    }
+	  }
+	});

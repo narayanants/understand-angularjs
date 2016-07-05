@@ -1,0 +1,51 @@
+Watchers and digest loop:
+=========================
+
+	JS has event loop.
+
+	AngularJS adds event listener for you and its extending the event loop to auto control the binding between the model and view.
+
+	Adds an Angular Context
+
+	Need to keep track of variables and watchers.
+
+	Part of watching and checking if something has changed.. is the $digest.
+
+
+	Digest cycle Has something changed?
+
+	If something has changed.. it updates every where the value of it.
+
+	by changing that is something other changed? It checks!
+
+	If changed it updates the DOM.
+
+	Adding out $watch:
+	==================
+
+	self.$watch('handle',function(newValue,oldValue){
+
+	})
+
+	this function runs when the handle changes.
+
+	// runs async and not watched by the angular $digest
+
+	setTimeout(function(){
+    	self.handle = 'newtwitterhandle';
+    	console.log('scope Changed!');
+    },3000);
+
+
+    $scope.$apply() // apply whatever I put in here to the angularJs context
+
+    instead of using setTimeout we use $timeout to tell angular to make it in angular context.
+
+    Part of angularjs context.
+
+
+    Model,view and *
+    =================
+
+    	Watchers and digest loop connects the model and view.
+

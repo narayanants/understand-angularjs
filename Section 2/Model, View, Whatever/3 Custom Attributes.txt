@@ -1,0 +1,10 @@
+Custom Attributes:
+==================
+
+	* Custom attributes doesn;t affect the webpage visually.
+	* Still there in DOM.
+	* ng- represents the HTML Attributes.
+	* data-ng- for strict HTML5.
+
+	
+

@@ -1,0 +1,12 @@
+Common Directives:
+=================
+
+	ng-if removes/ allows the entire pieces of the DOM based on the JS expression.
+
+	ng-show/ng-hide - adds a display: none ! important in css.
+
+	ng-class - takes a JSON object.
+
+	Add and remove class based on data from model and view.
+
+	ng-repeat - repeat each item in an array.

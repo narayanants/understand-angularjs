@@ -1,0 +1,5 @@
+How does angular do dependency injection:
+========================================
+
+	$scope is part of the core angular module.
+	

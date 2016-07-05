@@ -1,0 +1,15 @@
+Code Minification:
+==================
+
+	* Last param of the controller is always a function.
+	* 
+
+	myApp.controller('mainController',['$scope','$log',function($scope,$log){
+
+		$log.info()
+
+	}]);
+
+
+	* Order of the parameters inside the function matters.
+	* 
